@@ -1,0 +1,56 @@
+{
+  "name": "windows.services.store-prebuilt",
+  "version": "0.1.0",
+  "description": "Use the Windows.Services.Store UWP API directly from Node.js",
+  "main": "lib/main.js",
+  "os": [
+    "win32"
+  ],
+  "keywords": [
+    "Windows.Services.Store",
+    "Windows",
+    "Services",
+    "Store",
+    "StoreProduct",
+    "StoreProductPagedQueryResult",
+    "StorePurchaseProperties",
+    "StoreLicense",
+    "StoreImage",
+    "StoreVideo",
+    "StoreSku",
+    "StorePrice",
+    "StorePurchaseResult",
+    "StoreAvailability",
+    "StoreCollectionData",
+    "StoreSubscriptionInfo",
+    "StoreContext",
+    "StoreSendRequestResult",
+    "StoreAppLicense",
+    "StoreProductResult",
+    "StoreProductQueryResult",
+    "StoreConsumableResult",
+    "StoreAcquireLicenseResult",
+    "StorePackageUpdate",
+    "StorePackageUpdateResult",
+    "StorePackageLicense",
+    "StoreRequestHelper",
+    "StorePurchaseStatus",
+    "StoreConsumableStatus",
+    "StoreDurationUnit",
+    "StorePackageUpdateState",
+    "StoreContract",
+    "StorePackageUpdateStatus",
+    "NodeRT",
+    "WinRT",
+    "Microsoft"
+  ],
+  "dependencies": {
+    "nan": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dbtek/windows.services.store-prebuilt.git"
+  },
+  "author": "Ismail Demirbilek <ce.demirbilek@gmail.com>",
+  "license": "Apache-2.0"
+}
